@@ -341,107 +341,107 @@ if(isset($_POST['delete_image_05'])){
       <input type="hidden" name="old_image_03" value="<?= $fetch_property['image_03']; ?>">
       <input type="hidden" name="old_image_04" value="<?= $fetch_property['image_04']; ?>">
       <input type="hidden" name="old_image_05" value="<?= $fetch_property['image_05']; ?>">
-      <h3>property details</h3>
+      <h3>Update Property Details</h3>
       <div class="box">
-         <p>property name <span>*</span></p>
-         <input type="text" name="property_name" required maxlength="50" placeholder="enter property name" value="<?= $fetch_property['property_name']; ?>" class="input">
+         <p>Property Estate Name/ Location <span>*</span></p>
+         <input type="text" name="property_name" required maxlength="50" placeholder="enter name/ location..." value="<?= $fetch_property['property_name']; ?>" class="input">
       </div>
       <div class="flex">
          <div class="box">
-            <p>property price <span>*</span></p>
-            <input type="number" name="price" required min="0" max="9999999999" maxlength="10" value="<?= $fetch_property['price']; ?>" placeholder="enter property price" class="input">
+            <p>Property Price <span>*</span></p>
+            <input type="number" name="price" required min="0" max="9999999999" maxlength="10" value="<?= $fetch_property['price']; ?>" placeholder="enter property price..." class="input">
          </div>
          <div class="box">
-            <p>deposite amount <span>*</span></p>
-            <input type="number" name="deposite" required min="0" max="9999999999" value="<?= $fetch_property['deposite']; ?>" maxlength="10" placeholder="enter deposite amount" class="input">
+            <p>Deposit Amount Required <span>*</span></p>
+            <input type="number" name="deposite" required min="0" max="9999999999" value="<?= $fetch_property['deposite']; ?>" maxlength="10" placeholder="enter deposit amount..." class="input">
          </div>
          <div class="box">
-            <p>property address <span>*</span></p>
-            <input type="text" name="address" required maxlength="100" placeholder="enter property full address" class="input" value="<?= $fetch_property['address']; ?>">
+            <p>Property Address <span>*</span></p>
+            <input type="text" name="address" required maxlength="100" placeholder="enter full address..." class="input" value="<?= $fetch_property['address']; ?>">
          </div>
          <div class="box">
-            <p>offer type <span>*</span></p>
+            <p>Listing Type <span>*</span></p>
             <select name="offer" required class="input">
                <option value="<?= $fetch_property['offer']; ?>" selected><?= $fetch_property['offer']; ?></option>
-               <option value="sale">sale</option>
-               <option value="resale">resale</option>
-               <option value="rent">rent</option>
+               <option value="New Sale">New Sale</option>
+               <option value="Resale Property">Resale Property</option>
+               <option value="Rental Property">Rental Property</option>
             </select>
          </div>
          <div class="box">
-            <p>property type <span>*</span></p>
+            <p>Property Type <span>*</span></p>
             <select name="type" required class="input">
                <option value="<?= $fetch_property['type']; ?>" selected><?= $fetch_property['type']; ?></option>
-               <option value="flat">flat</option>
-               <option value="house">house</option>
-               <option value="shop">shop</option>
+               <option value="HDB">HDB</option>
+               <option value="Condominum">Condominum</option>
+               <option value="Landed Property/ Shop Houses">Landed Property/ Shop Houses</option>
             </select>
          </div>
          <div class="box">
-            <p>property status <span>*</span></p>
+            <p>Property status <span>*</span></p>
             <select name="status" required class="input">
                <option value="<?= $fetch_property['status']; ?>" selected><?= $fetch_property['status']; ?></option>
-               <option value="ready to move">ready to move</option>
-               <option value="under construction">under construction</option>
+               <option value="Ready to Move">Ready to Move</option>
+               <option value="Under Construction">Under Construction</option>
             </select>
          </div>
          <div class="box">
-            <p>furnished status <span>*</span></p>
+            <p>Furnished Status <span>*</span></p>
             <select name="furnished" required class="input">
                <option value="<?= $fetch_property['furnished']; ?>" selected><?= $fetch_property['furnished']; ?></option>
-               <option value="furnished">furnished</option>
-               <option value="semi-furnished">semi-furnished</option>
-               <option value="unfurnished">unfurnished</option>
+               <option value="Furnished">Furnished</option>
+               <option value="Semi-Furnished">Semi-Furnished</option>
+               <option value="Unfurnished">Unfurnished</option>
             </select>
          </div>
          <div class="box">
-            <p>how many BHK <span>*</span></p>
+            <p>No. Bedrooms <span>*</span></p>
             <select name="bhk" required class="input">
-               <option value="<?= $fetch_property['bhk']; ?>" selected><?= $fetch_property['bhk']; ?> BHK</option>
-               <option value="1">1 BHK</option>
-               <option value="2">2 BHK</option>
-               <option value="3">3 BHK</option>
-               <option value="4">4 BHK</option>
-               <option value="5">5 BHK</option>
-               <option value="6">6 BHK</option>
-               <option value="7">7 BHK</option>
-               <option value="8">8 BHK</option>
-               <option value="9">9 BHK</option>
+               <option value="<?= $fetch_property['bhk']; ?>" selected><?= $fetch_property['bhk']; ?> Bedrooms</option>
+               <option value="1">1 Bedroom</option>
+               <option value="2">2 Bedroom</option>
+               <option value="3">3 Bedroom</option>
+               <option value="4">4 Bedroom</option>
+               <option value="5">5 Bedroom</option>
+               <option value="6">6 Bedroom</option>
+               <option value="7">7 Bedroom</option>
+               <option value="8">8 Bedroom</option>
+               <option value="9">9 Bedroom</option>
             </select>
          </div>
          <div class="box">
-            <p>how many bedrooms <span>*</span></p>
+            <p>No. Kitchens <span>*</span></p>
             <select name="bedroom" required class="input">
                <option value="<?= $fetch_property['bedroom']; ?>" selected><?= $fetch_property['bedroom']; ?> bedroom</option>
-               <option value="0">0 bedroom</option>
-               <option value="1">1 bedroom</option>
-               <option value="2">2 bedroom</option>
-               <option value="3">3 bedroom</option>
-               <option value="4">4 bedroom</option>
-               <option value="5">5 bedroom</option>
-               <option value="6">6 bedroom</option>
-               <option value="7">7 bedroom</option>
-               <option value="8">8 bedroom</option>
-               <option value="9">9 bedroom</option>
+               <option value="0">0 Kitchens</option>
+               <option value="1">1 Kitchen</option>
+               <option value="2">2 Kitchen</option>
+               <option value="3">3 Kitchen</option>
+               <option value="4">4 Kitchen</option>
+               <option value="5">5 Kitchen</option>
+               <option value="6">6 Kitchen</option>
+               <option value="7">7 Kitchen</option>
+               <option value="8">8 Kitchen</option>
+               <option value="9">9 Kitchen</option>
             </select>
          </div>
          <div class="box">
-            <p>how many bathrooms <span>*</span></p>
+            <p>No. Bathrooms <span>*</span></p>
             <select name="bathroom" required class="input">
                <option value="<?= $fetch_property['bathroom']; ?>" selected><?= $fetch_property['bathroom']; ?> bathroom</option>
-               <option value="1">1 bathroom</option>
-               <option value="2">2 bathroom</option>
-               <option value="3">3 bathroom</option>
-               <option value="4">4 bathroom</option>
-               <option value="5">5 bathroom</option>
-               <option value="6">6 bathroom</option>
-               <option value="7">7 bathroom</option>
-               <option value="8">8 bathroom</option>
-               <option value="9">9 bathroom</option>
+               <option value="1">1 Bathroom</option>
+               <option value="2">2 Bathroom</option>
+               <option value="3">3 Bathroom</option>
+               <option value="4">4 Bathroom</option>
+               <option value="5">5 Bathroom</option>
+               <option value="6">6 Bathroom</option>
+               <option value="7">7 Bathroom</option>
+               <option value="8">8 Bathroom</option>
+               <option value="9">9 Bathroom</option>
             </select>
          </div>
          <div class="box">
-            <p>how many balconys <span>*</span></p>
+            <p>No. Balconys <span>*</span></p>
             <select name="balcony" required class="input">
                <option value="<?= $fetch_property['balcony']; ?>" selected><?= $fetch_property['balcony']; ?> balcony</option>
                <option value="0">0 balcony</option>
@@ -457,55 +457,55 @@ if(isset($_POST['delete_image_05'])){
             </select>
          </div>
          <div class="box">
-            <p>carpet area <span>*</span></p>
-            <input type="number" name="carpet" required min="1" max="9999999999" maxlength="10" placeholder="how many squarefits?" class="input" value="<?= $fetch_property['carpet']; ?>">
+            <p>Square Feet Area <span>*</span></p>
+            <input type="number" name="carpet" required min="1" max="9999999999" maxlength="10" placeholder="how many sqft?" class="input" value="<?= $fetch_property['carpet']; ?>">
          </div>
          <div class="box">
-            <p>property age <span>*</span></p>
-            <input type="number" name="age" required min="0" max="99" maxlength="2" placeholder="how old is property?" class="input" value="<?= $fetch_property['age']; ?>">
+            <p>Remaining Lease/ Property Age <span>*</span></p>
+            <input type="number" name="age" required min="0" max="99" maxlength="2" placeholder="how old is property/ remaining lease?" class="input" value="<?= $fetch_property['age']; ?>">
          </div>
          <div class="box">
-            <p>total floors <span>*</span></p>
-            <input type="number" name="total_floors" required min="0" max="99" maxlength="2" placeholder="how floors available?" class="input" value="<?= $fetch_property['total_floors']; ?>">
+            <p>Floor No. (For Condominum/ HDB) <span>*</span></p>
+            <input type="number" name="total_floors" required min="0" max="99" maxlength="2" placeholder="floor no..." class="input" value="<?= $fetch_property['total_floors']; ?>">
          </div>
          <div class="box">
-            <p>floor room <span>*</span></p>
-            <input type="number" name="room_floor" required min="0" max="99" maxlength="2" placeholder="property floor number" class="input" value="<?= $fetch_property['room_floor']; ?>">
+            <p>No. of levels (For Landed Property) <span>*</span></p>
+            <input type="number" name="room_floor" required min="0" max="99" maxlength="2" placeholder="no. of levels..." class="input" value="<?= $fetch_property['room_floor']; ?>">
          </div>
          <div class="box">
-            <p>loan <span>*</span></p>
+            <p>Loan <span>*</span></p>
             <select name="loan" required class="input">
                <option value="<?= $fetch_property['loan']; ?>" selected><?= $fetch_property['loan']; ?></option>
-               <option value="available">available</option>
-               <option value="not available" >not available</option>
+               <option value="Available">Available</option>
+               <option value="Not available">Not available</option>
             </select>
          </div>
       </div>
       <div class="box">
-         <p>property description <span>*</span></p>
+         <p>Property Description <span>*</span></p>
          <textarea name="description" maxlength="1000" class="input" required cols="30" rows="10" placeholder="write about property..." ><?= $fetch_property['description']; ?></textarea>
       </div>
       <div class="checkbox">
          <div class="box">
-            <p><input type="checkbox" name="lift" value="yes" <?php if($fetch_property['lift'] == 'yes'){echo 'checked'; } ?> />lifts</p>
-            <p><input type="checkbox" name="security_guard" value="yes" <?php if($fetch_property['security_guard'] == 'yes'){echo 'checked'; } ?> />security guard</p>
-            <p><input type="checkbox" name="play_ground" value="yes" <?php if($fetch_property['play_ground'] == 'yes'){echo 'checked'; } ?> />play ground</p>
-            <p><input type="checkbox" name="garden" value="yes" <?php if($fetch_property['garden'] == 'yes'){echo 'checked'; } ?> />garden</p>
-            <p><input type="checkbox" name="water_supply" value="yes" <?php if($fetch_property['water_supply'] == 'yes'){echo 'checked'; } ?> />water supply</p>
-            <p><input type="checkbox" name="power_backup" value="yes" <?php if($fetch_property['power_backup'] == 'yes'){echo 'checked'; } ?> />power backup</p>
+            <p><input type="checkbox" name="lift" value="yes" <?php if($fetch_property['lift'] == 'yes'){echo 'checked'; } ?> />Lifts</p>
+            <p><input type="checkbox" name="security_guard" value="yes" <?php if($fetch_property['security_guard'] == 'yes'){echo 'checked'; } ?> />Security Guard</p>
+            <p><input type="checkbox" name="play_ground" value="yes" <?php if($fetch_property['play_ground'] == 'yes'){echo 'checked'; } ?> />Playground</p>
+            <p><input type="checkbox" name="garden" value="yes" <?php if($fetch_property['garden'] == 'yes'){echo 'checked'; } ?> />Garden</p>
+            <p><input type="checkbox" name="water_supply" value="yes" <?php if($fetch_property['water_supply'] == 'yes'){echo 'checked'; } ?> />Water Supply</p>
+            <p><input type="checkbox" name="power_backup" value="yes" <?php if($fetch_property['power_backup'] == 'yes'){echo 'checked'; } ?> />Power Backup</p>
          </div>
          <div class="box">
-            <p><input type="checkbox" name="parking_area" value="yes" <?php if($fetch_property['parking_area'] == 'yes'){echo 'checked'; } ?> />parking area</p>
+            <p><input type="checkbox" name="parking_area" value="yes" <?php if($fetch_property['parking_area'] == 'yes'){echo 'checked'; } ?> />Parking Area</p>
             <p><input type="checkbox" name="gym" value="yes" <?php if($fetch_property['gym'] == 'yes'){echo 'checked'; } ?> />gym</p>
-            <p><input type="checkbox" name="shopping_mall" value="yes" <?php if($fetch_property['shopping_mall'] == 'yes'){echo 'checked'; } ?> />shopping_mall</p>
-            <p><input type="checkbox" name="hospital" value="yes" <?php if($fetch_property['hospital'] == 'yes'){echo 'checked'; } ?> />hospital</p>
-            <p><input type="checkbox" name="school" value="yes" <?php if($fetch_property['school'] == 'yes'){echo 'checked'; } ?> />school</p>
-            <p><input type="checkbox" name="market_area" value="yes" <?php if($fetch_property['market_area'] == 'yes'){echo 'checked'; } ?> />market area</p>
+            <p><input type="checkbox" name="shopping_mall" value="yes" <?php if($fetch_property['shopping_mall'] == 'yes'){echo 'checked'; } ?> />Shopping Mall</p>
+            <p><input type="checkbox" name="hospital" value="yes" <?php if($fetch_property['hospital'] == 'yes'){echo 'checked'; } ?> />Hospital</p>
+            <p><input type="checkbox" name="school" value="yes" <?php if($fetch_property['school'] == 'yes'){echo 'checked'; } ?> />School</p>
+            <p><input type="checkbox" name="market_area" value="yes" <?php if($fetch_property['market_area'] == 'yes'){echo 'checked'; } ?> />Market Area</p>
          </div>
       </div>
       <div class="box">
          <img src="uploaded_files/<?= $fetch_property['image_01']; ?>" class="image" alt="">
-         <p>update image 01</p>
+         <p>Update Property Image 1</p>
          <input type="file" name="image_01" class="input" accept="image/*">
       </div>
       <div class="flex"> 
@@ -514,7 +514,7 @@ if(isset($_POST['delete_image_05'])){
             <img src="uploaded_files/<?= $fetch_property['image_02']; ?>" class="image" alt="">
             <input type="submit" value="delete image 02" name="delete_image_02" class="inline-btn" onclick="return confirm('delete image 02');">
             <?php } ?>
-            <p>update image 02</p>
+            <p>Update Property Image 2</p>
             <input type="file" name="image_02" class="input" accept="image/*">
          </div>
          <div class="box">
@@ -522,7 +522,7 @@ if(isset($_POST['delete_image_05'])){
             <img src="uploaded_files/<?= $fetch_property['image_03']; ?>" class="image" alt="">
             <input type="submit" value="delete image 03" name="delete_image_03" class="inline-btn" onclick="return confirm('delete image 03');">
             <?php } ?>
-            <p>update image 03</p>
+            <p>Update Property Image 3</p>
             <input type="file" name="image_03" class="input" accept="image/*">
          </div>
          <div class="box">
@@ -530,7 +530,7 @@ if(isset($_POST['delete_image_05'])){
             <img src="uploaded_files/<?= $fetch_property['image_04']; ?>" class="image" alt="">
             <input type="submit" value="delete image 04" name="delete_image_04" class="inline-btn" onclick="return confirm('delete image 04');">
             <?php } ?>
-            <p>update image 04</p>
+            <p>Update Property Image 4</p>
             <input type="file" name="image_04" class="input" accept="image/*">
          </div>
          <div class="box">
@@ -538,7 +538,7 @@ if(isset($_POST['delete_image_05'])){
             <img src="uploaded_files/<?= $fetch_property['image_05']; ?>" class="image" alt="">
             <input type="submit" value="delete image 05" name="delete_image_05" class="inline-btn" onclick="return confirm('delete image 05');">
             <?php } ?>
-            <p>update image 05</p>
+            <p>Update Property Image 5</p>
             <input type="file" name="image_05" class="input" accept="image/*">
          </div>   
       </div>

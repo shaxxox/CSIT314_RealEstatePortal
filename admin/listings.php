@@ -74,7 +74,7 @@ if(isset($_POST['delete'])){
 
 <section class="listings">
 
-   <h1 class="heading">all listings</h1>
+   <h1 class="heading">All Listings</h1>
 
    <form action="" method="POST" class="search-form">
       <input type="text" name="search_box" placeholder="search listings..." maxlength="100" required>
@@ -131,12 +131,12 @@ if(isset($_POST['delete'])){
          <p><i class="far fa-image"></i><span><?= $total_images; ?></span></p>
          <img src="../uploaded_files/<?= $fetch_listing['image_01']; ?>" alt="">
       </div>
-      <p class="price"><i class="fas fa-indian-rupee-sign"></i><?= $fetch_listing['price']; ?></p>
+      <p class="price"><i>SGD</i><?= $fetch_listing['price']; ?></p>
       <h3 class="name"><?= $fetch_listing['property_name']; ?></h3>
       <p class="location"><i class="fas fa-map-marker-alt"></i><?= $fetch_listing['address']; ?></p>
       <form action="" method="POST">
          <input type="hidden" name="delete_id" value="<?= $listing_id; ?>">
-         <a href="view_property.php?get_id=<?= $listing_id; ?>" class="btn">view property</a>
+         <a href="view_property.php?get_id=<?= $listing_id; ?>" class="btn">View Property</a>
          <input type="submit" value="delete listing" onclick="return confirm('delete this listing?');" name="delete" class="delete-btn">
       </form>
    </div>

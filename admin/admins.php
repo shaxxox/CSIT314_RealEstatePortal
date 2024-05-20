@@ -54,7 +54,7 @@ if(isset($_POST['delete'])){
 
 <section class="grid">
 
-   <h1 class="heading">admins</h1>
+   <h1 class="heading">Manage Admins</h1>
 
    <form action="" method="POST" class="search-form">
       <input type="text" name="search_box" placeholder="search admins..." maxlength="100" required>
@@ -78,13 +78,13 @@ if(isset($_POST['delete'])){
    ?>
    <?php if( $fetch_admins['id'] == $admin_id){ ?>
    <div class="box" style="order: -1;">
-      <p>name : <span><?= $fetch_admins['name']; ?></p>
-      <a href="update.php" class="option-btn">update account</a>
-      <a href="register.php" class="btn">register new</a>
+      <p>Name : <span><?= $fetch_admins['name']; ?></p>
+      <a href="update.php" class="option-btn">Update Account</a>
+      <a href="register.php" class="btn">Register New</a>
    </div>
    <?php }else{?>
    <div class="box">
-      <p>name : <span><?= $fetch_admins['name']; ?></p>
+      <p>Name : <span><?= $fetch_admins['name']; ?></p>
       <form action="" method="POST">
          <input type="hidden" name="delete_id" value="<?= $fetch_admins['id']; ?>">
          <input type="submit" value="delete admin" onclick="return confirm('delete this admin?');" name="delete" class="delete-btn">
@@ -97,10 +97,10 @@ if(isset($_POST['delete'])){
       echo '<p class="empty">no results found!</p>';
    }else{
    ?>
-      <p class="empty">no admins added yet!</p>
+      <p class="empty">No admins added yet</p>
       <div class="box" style="text-align: center;">
-      <p>create a new admin</p>
-      <a href="register.php" class="btn">register now</a>
+      <p>Create a new admin</p>
+      <a href="register.php" class="btn">Register now</a>
    </div>
    <?php
       }

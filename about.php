@@ -40,7 +40,7 @@ if(isset($_COOKIE['user_id'])){
       <div class="content">
          <h3>Why choose us?</h3>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem provident voluptatum distinctio laborum veritatis vitae suscipit praesentium fugiat unde?</p>
-         <a href="contact.html" class="inline-btn">Contact Us</a>
+         <a href="contact.php" class="inline-btn">Contact Us</a>
       </div>
    </div>
 
