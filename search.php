@@ -41,126 +41,126 @@ include 'components/save_send.php';
          
          <div class="flex">
             <div class="box">
-               <p>enter location</p>
-               <input type="text" name="location" required maxlength="50" placeholder="enter ciyt name" class="input">
+               <p>Property Estate Name/ Location</p>
+               <input type="text" name="location" required maxlength="50" placeholder="enter estate/ location..." class="input">
             </div>
             <div class="box">
-               <p>offer type</p>
+               <p>Listing Type</p>
                <select name="offer" class="input" required>
-                  <option value="sale">sale</option>
-                  <option value="resale">resale</option>
-                  <option value="rent">rent</option>
+               <option value="New Property Sale">New Property Sale</option>
+               <option value="Resale Property">Resale Property</option>
+               <option value="Rental Property">Rental Property</option>
                </select>
             </div>
             <div class="box">
-               <p>property type</p>
+               <p>Property Type</p>
                <select name="type" class="input" required>
-                  <option value="flat">flat</option>
-                  <option value="house">house</option>
-                  <option value="shop">shop</option>
+                  <option value="HDB">HDB</option>
+                  <option value="Condominum">Condominum</option>
+                  <option value="Landed Property/ Shop Houses">Landed Property/ Shop Houses</option>
                </select>
             </div>
             <div class="box">
-               <p>how many BHK</p>
+               <p>No. Bedrooms</p>
                <select name="bhk" class="input" required>
-                  <option value="1">1 BHK</option>
-                  <option value="2">2 BHK</option>
-                  <option value="3">3 BHK</option>
-                  <option value="4">4 BHK</option>
-                  <option value="5">5 BHK</option>
-                  <option value="6">6 BHK</option>
-                  <option value="7">7 BHK</option>
-                  <option value="8">8 BHK</option>
-                  <option value="9">9 BHK</option>
+                  <option value="1">1 Bedroom</option>
+                  <option value="2">2 Bedroom</option>
+                  <option value="3">3 Bedroom</option>
+                  <option value="4">4 Bedroom</option>
+                  <option value="5">5 Bedroom</option>
+                  <option value="6">6 Bedroom</option>
+                  <option value="7">7 Bedroom</option>
+                  <option value="8">8 Bedroom</option>
+                  <option value="9">9 Bedroom</option>
                </select>
             </div>
             <div class="box">
-               <p>maximum budget</p>
+               <p>Min (SGD) </p>
                <select name="min" class="input" required>
-                  <option value="5000">5k</option>
-                  <option value="10000">10k</option>
-                  <option value="15000">15k</option>
-                  <option value="20000">20k</option>
-                  <option value="30000">30k</option>
-                  <option value="40000">40k</option>
-                  <option value="40000">40k</option>
-                  <option value="50000">50k</option>
-                  <option value="100000">1 lac</option>
-                  <option value="500000">5 lac</option>
-                  <option value="1000000">10 lac</option>
-                  <option value="2000000">20 lac</option>
-                  <option value="3000000">30 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="5000000">50 lac</option>
-                  <option value="6000000">60 lac</option>
-                  <option value="7000000">70 lac</option>
-                  <option value="8000000">80 lac</option>
-                  <option value="9000000">90 lac</option>
-                  <option value="10000000">1 Cr</option>
-                  <option value="20000000">2 Cr</option>
-                  <option value="30000000">3 Cr</option>
-                  <option value="40000000">4 Cr</option>
-                  <option value="50000000">5 Cr</option>
-                  <option value="60000000">6 Cr</option>
-                  <option value="70000000">7 Cr</option>
-                  <option value="80000000">8 Cr</option>
-                  <option value="90000000">9 Cr</option>
-                  <option value="100000000">10 Cr</option>
-                  <option value="150000000">15 Cr</option>
-                  <option value="200000000">20 Cr</option>
+               <option value="5000">5,000</option>
+                  <option value="10000">10,000</option>
+                  <option value="15000">15,000</option>
+                  <option value="20000">20,000</option>
+                  <option value="30000">30,000</option>
+                  <option value="40000">40,000</option>
+                  <option value="40000">40,000</option>
+                  <option value="50000">50,000</option>
+                  <option value="100000">100,000</option>
+                  <option value="500000">500,000</option>
+                  <option value="1000000">1,000,000</option>
+                  <option value="2000000">2,000,000</option>
+                  <option value="3000000">3,000,000</option>
+                  <option value="4000000">4,000,000</option>
+                  <option value="4000000">4,000,000</option>
+                  <option value="5000000">5,000,000</option>
+                  <option value="6000000">6,000,000</option>
+                  <option value="7000000">7,000,000</option>
+                  <option value="8000000">8,000,000</option>
+                  <option value="9000000">9,000,000</option>
+                  <option value="10000000">10,000,000</option>
+                  <option value="20000000">20,000,000</option>
+                  <option value="30000000">30,000,000</option>
+                  <option value="40000000">40,000,000</option>
+                  <option value="50000000">50,000,000</option>
+                  <option value="60000000">60,000,000</option>
+                  <option value="70000000">70,000,000</option>
+                  <option value="80000000">80,000,000</option>
+                  <option value="90000000">90,000,000</option>
+                  <option value="100000000">100,000,000</option>
+                  <option value="150000000">150,000,000</option>
+                  <option value="200000000">200,000,000</option>
                </select>
             </div>
             <div class="box">
-               <p>maximum budget</p>
+               <p>Max (SGD) </p>
                <select name="max" class="input" required>
-                  <option value="5000">5k</option>
-                  <option value="10000">10k</option>
-                  <option value="15000">15k</option>
-                  <option value="20000">20k</option>
-                  <option value="30000">30k</option>
-                  <option value="40000">40k</option>
-                  <option value="40000">40k</option>
-                  <option value="50000">50k</option>
-                  <option value="100000">1 lac</option>
-                  <option value="500000">5 lac</option>
-                  <option value="1000000">10 lac</option>
-                  <option value="2000000">20 lac</option>
-                  <option value="3000000">30 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="4000000">40 lac</option>
-                  <option value="5000000">50 lac</option>
-                  <option value="6000000">60 lac</option>
-                  <option value="7000000">70 lac</option>
-                  <option value="8000000">80 lac</option>
-                  <option value="9000000">90 lac</option>
-                  <option value="10000000">1 Cr</option>
-                  <option value="20000000">2 Cr</option>
-                  <option value="30000000">3 Cr</option>
-                  <option value="40000000">4 Cr</option>
-                  <option value="50000000">5 Cr</option>
-                  <option value="60000000">6 Cr</option>
-                  <option value="70000000">7 Cr</option>
-                  <option value="80000000">8 Cr</option>
-                  <option value="90000000">9 Cr</option>
-                  <option value="100000000">10 Cr</option>
-                  <option value="150000000">15 Cr</option>
-                  <option value="200000000">20 Cr</option>
+               <option value="10000">10,000</option>
+                  <option value="15000">15,000</option>
+                  <option value="20000">20,000</option>
+                  <option value="30000">30,000</option>
+                  <option value="40000">40,000</option>
+                  <option value="40000">40,000</option>
+                  <option value="50000">50,000</option>
+                  <option value="100000">100,000</option>
+                  <option value="500000">500,000</option>
+                  <option value="1000000">1,000,000</option>
+                  <option value="2000000">2,000,000</option>
+                  <option value="3000000">3,000,000</option>
+                  <option value="4000000">4,000,000</option>
+                  <option value="4000000">4,000,000</option>
+                  <option value="5000000">5,000,000</option>
+                  <option value="6000000">6,000,000</option>
+                  <option value="7000000">7,000,000</option>
+                  <option value="8000000">8,000,000</option>
+                  <option value="9000000">9,000,000</option>
+                  <option value="10000000">10,000,000</option>
+                  <option value="20000000">20,000,000</option>
+                  <option value="30000000">30,000,000</option>
+                  <option value="40000000">40,000,000</option>
+                  <option value="50000000">50,000,000</option>
+                  <option value="60000000">60,000,000</option>
+                  <option value="70000000">70,000,000</option>
+                  <option value="80000000">80,000,000</option>
+                  <option value="90000000">90,000,000</option>
+                  <option value="100000000">100,000,000</option>
+                  <option value="150000000">150,000,000</option>
+                  <option value="200000000">200,000,000</option>
+                  <option value="250000000">250,000,000</option>
                </select>
             </div>
             <div class="box">
-               <p>status</p>
+               <p>Property Satus </p>
                <select name="status" class="input" required>
-                  <option value="ready to move">ready to move</option>
-                  <option value="under construction">under construction</option>
+               <option value="Ready to Move">Ready to Move</option>
+               <option value="Under Construction">Under Construction</option>
                </select>
             </div>
             <div class="box">
-               <p>furnished</p>
+               <p>Furnished Status </p>
                <select name="furnished" class="input" required>
-                  <option value="unfurnished">unfurnished</option>
-                  <option value="furnished">furnished</option>
-                  <option value="semi-furnished">semi-furnished</option>
+                  <option value="Furnished">Furnished</option>
+                  <option value="Semi-Furnished">Semi-Furnished</option>
+                  <option value="Unfurnished">Unfurnished</option>
                </select>
             </div>
          </div>
@@ -274,11 +274,11 @@ if(isset($_POST['h_search'])){
             <?php
                if($select_saved->rowCount() > 0){
             ?>
-            <button type="submit" name="save" class="save"><i class="fas fa-heart"></i><span>saved</span></button>
+            <button type="submit" name="save" class="save"><i class="fas fa-heart"></i><span>Saved</span></button>
             <?php
                }else{ 
             ?>
-            <button type="submit" name="save" class="save"><i class="far fa-heart"></i><span>save</span></button>
+            <button type="submit" name="save" class="save"><i class="far fa-heart"></i><span>Save</span></button>
             <?php
                }
             ?>
@@ -295,19 +295,19 @@ if(isset($_POST['h_search'])){
             </div>
          </div>
          <div class="box">
-            <div class="price"><i class="fas fa-indian-rupee-sign"></i><span><?= $fetch_property['price']; ?></span></div>
+            <div class="price"><i>SGD</i><span><?= $fetch_property['price']; ?></span></div>
             <h3 class="name"><?= $fetch_property['property_name']; ?></h3>
             <p class="location"><i class="fas fa-map-marker-alt"></i><span><?= $fetch_property['address']; ?></span></p>
             <div class="flex">
                <p><i class="fas fa-house"></i><span><?= $fetch_property['type']; ?></span></p>
                <p><i class="fas fa-tag"></i><span><?= $fetch_property['offer']; ?></span></p>
-               <p><i class="fas fa-bed"></i><span><?= $fetch_property['bhk']; ?> BHK</span></p>
+               <p><i class="fas fa-bed"></i><span><?= $fetch_property['bhk']; ?> No. of Bedrooms</span></p>
                <p><i class="fas fa-trowel"></i><span><?= $fetch_property['status']; ?></span></p>
                <p><i class="fas fa-couch"></i><span><?= $fetch_property['furnished']; ?></span></p>
                <p><i class="fas fa-maximize"></i><span><?= $fetch_property['carpet']; ?>sqft</span></p>
             </div>
             <div class="flex-btn">
-               <a href="view_property.php?get_id=<?= $fetch_property['id']; ?>" class="btn">view property</a>
+               <a href="view_property.php?get_id=<?= $fetch_property['id']; ?>" class="btn">View Property</a>
                <input type="submit" value="send enquiry" name="send" class="btn">
             </div>
          </div>

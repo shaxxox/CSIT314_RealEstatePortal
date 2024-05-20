@@ -34,7 +34,7 @@ include 'components/save_send.php';
 
 <section class="listings">
 
-   <h1 class="heading">saved listings</h1>
+   <h1 class="heading">Saved Listings</h1>
 
    <div class="box-container">
       <?php
@@ -85,11 +85,11 @@ include 'components/save_send.php';
             <?php
                if($select_saved->rowCount() > 0){
             ?>
-            <button type="submit" name="save" class="save"><i class="fas fa-heart"></i><span>remove from saved</span></button>
+            <button type="submit" name="save" class="save"><i class="fas fa-heart"></i><span>Remove from Saved</span></button>
             <?php
                }else{ 
             ?>
-            <button type="submit" name="save" class="save"><i class="far fa-heart"></i><span>save</span></button>
+            <button type="submit" name="save" class="save"><i class="far fa-heart"></i><span>Save</span></button>
             <?php
                }
             ?>
@@ -106,19 +106,19 @@ include 'components/save_send.php';
             </div>
          </div>
          <div class="box">
-            <div class="price"><i class="fas fa-indian-rupee-sign"></i><span><?= $fetch_property['price']; ?></span></div>
+            <div class="price"><i>SGD</i><span><?= $fetch_property['price']; ?></span></div>
             <h3 class="name"><?= $fetch_property['property_name']; ?></h3>
             <p class="location"><i class="fas fa-map-marker-alt"></i><span><?= $fetch_property['address']; ?></span></p>
             <div class="flex">
                <p><i class="fas fa-house"></i><span><?= $fetch_property['type']; ?></span></p>
                <p><i class="fas fa-tag"></i><span><?= $fetch_property['offer']; ?></span></p>
-               <p><i class="fas fa-bed"></i><span><?= $fetch_property['bhk']; ?> BHK</span></p>
+               <p><i class="fas fa-bed"></i><span><?= $fetch_property['bhk']; ?> Bedroom</span></p>
                <p><i class="fas fa-trowel"></i><span><?= $fetch_property['status']; ?></span></p>
                <p><i class="fas fa-couch"></i><span><?= $fetch_property['furnished']; ?></span></p>
                <p><i class="fas fa-maximize"></i><span><?= $fetch_property['carpet']; ?>sqft</span></p>
             </div>
             <div class="flex-btn">
-               <a href="view_property.php?get_id=<?= $fetch_property['id']; ?>" class="btn">view property</a>
+               <a href="view_property.php?get_id=<?= $fetch_property['id']; ?>" class="btn">View Property</a>
                <input type="submit" value="send enquiry" name="send" class="btn">
             </div>
          </div>
@@ -126,11 +126,11 @@ include 'components/save_send.php';
       <?php
                }
             }else{
-               echo '<p class="empty">no properties added yet! <a href="post_property.php" style="margin-top:1.5rem;" class="btn">add new</a></p>';
+               echo '<p class="empty">No properties added yet! <a href="post_property.php" style="margin-top:1.5rem;" class="btn">Add new</a></p>';
             }
          }
       }else{
-         echo '<p class="empty">no properties saved yet! <a href="listings.php" style="margin-top:1.5rem;" class="btn">discover more</a></p>';
+         echo '<p class="empty">No properties saved yet! <a href="listings.php" style="margin-top:1.5rem;" class="btn">Discover more</a></p>';
       }
       ?>
       

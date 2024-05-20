@@ -46,9 +46,9 @@ if(isset($_POST['delete'])){
       $delete_requests->execute([$delete_id]);
       $delete_listing = $conn->prepare("DELETE FROM `property` WHERE id = ?");
       $delete_listing->execute([$delete_id]);
-      $success_msg[] = 'listing deleted successfully!';
+      $success_msg[] = 'Listing Deleted Successfully!';
    }else{
-      $warning_msg[] = 'listing deleted already!';
+      $warning_msg[] = 'Listing Deleted Already!';
    }
 
 }
@@ -119,14 +119,14 @@ if(isset($_POST['delete'])){
          <p><i class="far fa-image"></i><span><?= $total_images; ?></span></p> 
          <img src="uploaded_files/<?= $fetch_property['image_01']; ?>" alt="">
       </div>
-      <div class="price"><i class="fas fa-indian-rupee-sign"></i><span><?= $fetch_property['price']; ?></span></div>
+      <div class="price"><i>SGD</i><span><?= $fetch_property['price']; ?></span></div>
       <h3 class="name"><?= $fetch_property['property_name']; ?></h3>
       <p class="location"><i class="fas fa-map-marker-alt"></i><span><?= $fetch_property['address']; ?></span></p>
       <div class="flex-btn">
          <a href="update_property.php?get_id=<?= $property_id; ?>" class="btn">update</a>
-         <input type="submit" name="delete" value="delete" class="btn" onclick="return confirm('delete this listing?');">
+         <input type="submit" name="delete" value="delete" class="btn" onclick="return confirm('Delete this listing?');">
       </div>
-      <a href="view_property.php?get_id=<?= $property_id; ?>" class="btn">view property</a>
+      <a href="view_property.php?get_id=<?= $property_id; ?>" class="btn">View Property</a>
    </form>
    <?php
          }

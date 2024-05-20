@@ -57,7 +57,7 @@ if(isset($_POST['submit'])){
       <h3>Welcome back!</h3>
       <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
       <input type="password" name="pass" required maxlength="20" placeholder="enter your password" class="box">
-      <p>Dont't have an account yet? <a href="register.html">Register New</a></p>
+      <p>Dont't have an account yet? <a href="register.php">Register New</a></p>
       <input type="submit" value="login now" name="submit" class="btn">
    </form>
 
