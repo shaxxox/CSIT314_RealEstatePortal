@@ -191,8 +191,8 @@ var swiper = new Swiper(".images-container", {
       modifier: 3,
       slideShadows: true,
    },
-   pagination: {
-      el: ".swiper-pagination",
+   // pagination: {
+   //    el: ".swiper-pagination",
    },
 });
 
