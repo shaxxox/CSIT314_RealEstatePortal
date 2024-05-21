@@ -322,7 +322,7 @@ if(isset($_POST['delete_image_05'])){
 
 </head>
 <body>
-
+   
    
 <?php include 'components/user_header.php'; ?>
 
@@ -553,8 +553,6 @@ if(isset($_POST['delete_image_05'])){
    ?>
 
 </section>
-
-
 
 
 
