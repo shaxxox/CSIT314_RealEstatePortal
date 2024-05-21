@@ -157,37 +157,37 @@ include 'components/save_send.php';
       <div class="box">
          <img src="images/icon-1.png" alt="">
          <h3>Buy House</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+         <p>We help you find and buy your dream house.</p>
       </div>
 
       <div class="box">
          <img src="images/icon-2.png" alt="">
          <h3>Rent House</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+         <p>Find houses available for rent.</p>
       </div>
 
       <div class="box">
          <img src="images/icon-3.png" alt="">
          <h3>Sell House</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+         <p>List your property for sale with us.</p>
       </div>
 
       <div class="box">
          <img src="images/icon-4.png" alt="">
          <h3>Flat and Buildings</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+         <p>We offer a variety of flats and buildings.</p>
       </div>
 
       <div class="box">
          <img src="images/icon-5.png" alt="">
          <h3>Shops and Malls</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+         <p>Explore commercial properties like shops and malls.</p>
       </div>
 
       <div class="box">
          <img src="images/icon-6.png" alt="">
          <h3>24/7 Service</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+         <p>We are available 24/7 for your service.</p>
       </div>
 
    </div>
@@ -301,13 +301,6 @@ include 'components/save_send.php';
 </section>
 
 <!-- listings section ends -->
-
-
-
-
-
-
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 
