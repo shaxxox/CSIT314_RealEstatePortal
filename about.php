@@ -39,7 +39,7 @@ if(isset($_COOKIE['user_id'])){
       </div>
       <div class="content">
          <h3>Why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem provident voluptatum distinctio laborum veritatis vitae suscipit praesentium fugiat unde?</p>
+         <p>We offer top-notch services and personalized assistance to ensure you find the perfect property.</p>
          <a href="contact.php" class="inline-btn">Contact Us</a>
       </div>
    </div>
@@ -59,19 +59,19 @@ if(isset($_COOKIE['user_id'])){
       <div class="box">
          <img src="images/step-1.png" alt="">
          <h3>Search property</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, placeat.</p>
+         <p>Find the right property using our advanced search tools.</p>
       </div>
 
       <div class="box">
          <img src="images/step-2.png" alt="">
          <h3>Contact Agents</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, placeat.</p>
+         <p>Get in touch with our agents for detailed information and viewings.</p>
       </div>
 
       <div class="box">
          <img src="images/step-3.png" alt="">
-         <h3>enjoy property</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, placeat.</p>
+         <h3>Enjoy property</h3>
+         <p>Move into your new property with ease and start enjoying it.</p>
       </div>
 
    </div>
@@ -92,7 +92,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-1.png" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>John Deo</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -102,7 +102,7 @@ if(isset($_COOKIE['user_id'])){
                </div>
             </div>
          </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
+         <p>Great service and very helpful agents.</p>
       </div>
 
       <div class="box">
@@ -119,14 +119,14 @@ if(isset($_COOKIE['user_id'])){
                </div>
             </div>
          </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
+         <p>The agents were professional and made the process easy.</p>
       </div>
 
       <div class="box">
          <div class="user">
             <img src="images/pic-3.png" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>John Deo</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -136,14 +136,14 @@ if(isset($_COOKIE['user_id'])){
                </div>
             </div>
          </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
+         <p>Highly recommend for their excellent service.</p>
       </div>
 
       <div class="box">
          <div class="user">
             <img src="images/pic-4.png" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>John Deo</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -153,14 +153,14 @@ if(isset($_COOKIE['user_id'])){
                </div>
             </div>
          </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
+         <p>They helped me find my dream home quickly.</p>
       </div>
 
       <div class="box">
          <div class="user">
             <img src="images/pic-5.png" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>John Deo</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -170,14 +170,14 @@ if(isset($_COOKIE['user_id'])){
                </div>
             </div>
          </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
+         <p>Very satisfied with their professional service.</p>
       </div>
 
       <div class="box">
          <div class="user">
             <img src="images/pic-6.png" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>John Deo</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -187,7 +187,7 @@ if(isset($_COOKIE['user_id'])){
                </div>
             </div>
          </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
+         <p>Great experience from start to finish.</p>
       </div>
 
    </div>
@@ -195,15 +195,6 @@ if(isset($_COOKIE['user_id'])){
 </section>
 
 <!-- review section ends -->
-
-
-
-
-
-
-
-
-
 
 <?php include 'components/footer.php'; ?>
 
