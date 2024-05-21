@@ -32,7 +32,7 @@ include 'components/save_send.php';
 <?php include 'components/user_header.php'; ?>
 
 
-<!-- home section starts  -->
+<!-- home section starts -->
 
 <div class="home">
 
@@ -313,7 +313,7 @@ include 'components/save_send.php';
 
 <?php include 'components/footer.php'; ?>
 
-<!-- custom js file link  -->
+<!-- custom js file link -->
 <script src="js/script.js"></script>
 
 <?php include 'components/message.php'; ?>
