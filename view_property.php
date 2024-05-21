@@ -163,8 +163,6 @@ include 'components/save_send.php';
 
 
 
-
-
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
@@ -191,8 +189,8 @@ var swiper = new Swiper(".images-container", {
       modifier: 3,
       slideShadows: true,
    },
-   // pagination: {
-   //    el: ".swiper-pagination",
+   pagination: {
+      el: ".swiper-pagination",
    },
 });
 
